@@ -56,33 +56,39 @@ header nav a{
 
 .main{
     text-align: center;
+    padding: 20vh;
     background:url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .tiles{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-size: cover;
+    background-position: center;
 }
 
 .image1{
-    background: url(https://picsum.photos/200/300?grayscale);
+    background-image: url(https://picsum.photos/200/300?grayscale);
 }
 
 .image2{
-    background: url(https://picsum.photos/200/300);
+    background-image: url(https://picsum.photos/200/300);
 }
 .image3{
-    background: url(https://picsum.photos/id/237/200/300);
+    background-image: url(https://picsum.photos/id/237/200/300);
 }
 .image4{
-    background: url(https://picsum.photos/seed/picsum/200/300);
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
 }
 .image5{
-    background: url(https://picsum.photos/200/300);
+    background-image: url(https://picsum.photos/200/300);
 }
 .image6{
-    background: url(https://picsum.photos/id/870/200/300);
+    background-image: url(https://picsum.photos/id/870/200/300);
 }
 
 
