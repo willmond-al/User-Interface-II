@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+*{
+
+    /* border:1px solid grey; */
+    box-sizing:border-box;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+section, div{
+    padding:5%;
+    margin:3%;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Syne Tactile', cursive;
+    color:white;
+    background: black;
+}
+
+header nav{
+    display: flex;
+    width:40%;
+    justify-content: space-evenly;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    background: yellow;
+    border-radius: 10%;
+    padding:1.5%;
+    margin: 2%;
+}
+
+header nav a:hover{
+    background:red;
+}
+
+.main{
+    text-align: center;
+    padding: 20vh;
+    background:url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Syne Tactile', cursive;
+    color:aquamarine;
+
+}
+
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.image1{
+    background-image: url(https://picsum.photos/200/300?grayscale);
+}
+
+.image2{
+    background-image: url(https://picsum.photos/200/300);
+}
+.image3{
+    background-image: url(https://picsum.photos/id/237/200/300);
+}
+.image4{
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+}
+.image5{
+    background-image: url(https://picsum.photos/200/300);
+}
+.image6{
+    background-image: url(https://picsum.photos/id/870/200/300);
+}
+
+
+
+h2{
+    font-size: 2rem;
+}
+
+h2 p{
+    font-size: 60%;
+}
+
+.tiles div{
+    width:26%;
+    height: 20vh;
+
+}
+
+.tiles .title{
+    padding:0;
+    height:2%;
+    margin:1%;
+    text-align: center;
+}
+
+footer{
+    text-align:center;
+    background:grey;
+    font-family: 'Syne Tactile', cursive;
+}
+
+footer div{
+    display:inline-block;
+    background:white;
+    padding:3% 5%;
+    border-radius: 10%;
+    transition:0.5s;
+}
+
+footer div:hover{
+    background: black;
+    color: white;
+}
