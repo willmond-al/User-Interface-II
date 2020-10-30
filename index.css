@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 *{
 
-    border:1px solid grey;
+    /* border:1px solid grey; */
     box-sizing:border-box;
     max-width: 100%;
 }
@@ -46,12 +46,28 @@ section, div{
 header{
     display:flex;
     justify-content: space-between;
+    font-family: 'Syne Tactile', cursive;
+    color:white;
+    background: black;
+}
+
+header nav{
+    display: flex;
+    width:40%;
+    justify-content: space-evenly;
+    
 }
 
 header nav a{
-    justify-content: space-between;
     text-decoration: none;
+    background: yellow;
+    border-radius: 10%;
+    padding:1.5%;
+    margin: 2%;
+}
 
+header nav a:hover{
+    background:red;
 }
 
 .main{
@@ -71,7 +87,7 @@ header nav a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .image1{
@@ -105,8 +121,16 @@ h2 p{
 }
 
 .tiles div{
-    width:25%;
+    width:26%;
+    height: 20vh;
 
+}
+
+.tiles .title{
+    padding:0;
+    height:2%;
+    margin:1%;
+    text-align: center;
 }
 
 footer{
