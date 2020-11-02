@@ -34,8 +34,11 @@ footer, header, hgroup, menu, nav, section {
     max-width: 100%;
 }
 
-h1{
+header h1{
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+
 }
 
 section, div{
@@ -49,6 +52,8 @@ header{
     font-family: 'Syne Tactile', cursive;
     color:white;
     background: black;
+    border-bottom-left-radius: 10%;
+    height: 5vh;
 }
 
 header nav{
@@ -62,23 +67,25 @@ header nav a{
     text-decoration: none;
     background: yellow;
     border-radius: 10%;
-    padding:1.5%;
+    padding:3%;
     margin: 2%;
+    display: flex;
+    align-items: center;
 }
 
 header nav a:hover{
     background:red;
+    font-size: larger;
 }
 
 .main{
     text-align: center;
+    color: antiquewhite;
     padding: 20vh;
-    background:url(https://picsum.photos/200/300);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Syne Tactile', cursive;
-    color:aquamarine;
+    background-image: url(/36EB2BAA-5E8B-4E60-A83D-FE326F2D909E_1_105_c.jpeg);
+    background-position: 60%;
+    
+   
 
 }
 
@@ -90,24 +97,40 @@ header nav a:hover{
     background-position: bottom;
 }
 
-.image1{
-    background-image: url(https://picsum.photos/200/300?grayscale);
+.image{
+    border-radius: 10%;
 }
 
-.image2{
-    background-image: url(https://picsum.photos/200/300);
+ .one{
+    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-position: bottom;
+    background-size: cover;
 }
-.image3{
+
+.two{
+    background-image: url(https://picsum.photos/200/300);
+    background-position: bottom;
+    background-size: cover;
+}
+.three{
     background-image: url(https://picsum.photos/id/237/200/300);
+    background-position: bottom;
+    background-size: cover;
 }
-.image4{
+.four{
     background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-position: bottom;
+    background-size: cover;
 }
-.image5{
+.five{
     background-image: url(https://picsum.photos/200/300);
+    background-position: bottom;
+    background-size: cover;
 }
-.image6{
+.six{
     background-image: url(https://picsum.photos/id/870/200/300);
+    background-position: bottom;
+    background-size: cover;
 }
 
 
