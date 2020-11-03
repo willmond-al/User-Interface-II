@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 *{
 
-    /* border:1px solid grey; */
+    border:1px solid grey;
     box-sizing:border-box;
     max-width: 100%;
 }
@@ -85,10 +85,7 @@ header nav a:hover{
     background-image: url(/36EB2BAA-5E8B-4E60-A83D-FE326F2D909E_1_105_c.jpeg);
     background-position: 60%;
     background-repeat: no-repeat;
-    
-   
-
-}
+    }
 
 .tiles{
     display: flex;
@@ -178,12 +175,7 @@ footer div:hover{
 
 @media(max-width:800px){
 
-    *{
-
-        border:1px solid grey;
-        box-sizing:border-box;
-        max-width: 100%;
-    }
+   
     
     header h1{
         font-size: 6rem;
@@ -194,12 +186,6 @@ footer div:hover{
 
     
     }
-    
-    section, div{
-        padding:5%;
-        margin:3%;
-    }
-
     
     header{
         display:flex;
@@ -228,29 +214,29 @@ footer div:hover{
         font-size: 2rem;
         border-radius: 10%;
         width: 40%;
-        padding:10%;
+        padding:5%;
         margin: 4%;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    
+
     header nav a:hover{
         background:red;
         font-size: larger;
     }
+
     
     .main{
         text-align: center;
         color: antiquewhite;
-        padding: 20vh;
+        padding: 10vh;
         background-image: url(/36EB2BAA-5E8B-4E60-A83D-FE326F2D909E_1_105_c.jpeg);
-        background-position: 60%;
+        position: relative;
+        top: 25vh;
         background-repeat: no-repeat;
         
-       
-    
     }
     
     .tiles{
@@ -258,7 +244,11 @@ footer div:hover{
         flex-wrap: wrap;
         justify-content: space-evenly;
         background-size: cover;
+        height: 100vh;
         background-position: bottom;
+        position: relative;
+        top: 200px;
+        
     }
     
     .image{
@@ -308,22 +298,31 @@ footer div:hover{
     }
     
     .tiles div{
-        width:26%;
+        width:38%;
         height: 20vh;
+        margin-bottom: 30px;
     
+    }
+
+    .move{
+        position: relative;
+        right: 50%;
     }
     
     .tiles .title{
         padding:0;
         height:2%;
-        margin:1%;
+        margin:0;
         text-align: center;
+        margin-bottom: 20px;
     }
     
     footer{
         text-align:center;
         background:grey;
         font-family: 'Syne Tactile', cursive;
+        position: relative;
+        top: 25vh;
     }
     
     footer div{
